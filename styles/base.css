@@ -16,7 +16,7 @@ header {
   display: grid;
   grid-template-columns: 150px auto;
   align-items: center;
-  background-color: rgba(50, 50, 250, 0.625);
+  background-color: rgba(14, 14, 132, 0.881);
   color: white;
   text-align: center;
   border-radius: 1em;
@@ -52,11 +52,11 @@ main {
 }
 
 h3 {
-  background-color: rgba(50, 50, 250, 0.625);
+  background-color: rgba(14, 14, 132, 0.881);
   color: white;
 }
 
 footer {
-  background-color: rgba(50, 50, 250, 0.625);
+  background-color: rgba(14, 14, 132, 0.881);
   color: white;
 }
