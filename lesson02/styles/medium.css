@@ -1,0 +1,18 @@
+@media screen and (min-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main section {
+    padding: 20px;
+  }
+
+  body {
+    max-width: 920px;
+  }
+  
+  main section:nth-child(3) {
+    grid-column: span 2;
+  }
+}

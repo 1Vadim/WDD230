@@ -1,0 +1,10 @@
+@media screen and (min-width: 920px) {
+  main {
+    display: flex;
+  }
+
+  main section {
+    padding: 20px;
+    flex: 1 1 100%;
+  }
+}
