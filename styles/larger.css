@@ -2,7 +2,9 @@
   body {
     max-width: none;
   }
-
+  #menu {
+    display: none;
+  }
   nav {
     display: flex;
     background-color: black;
@@ -14,6 +16,7 @@
   }
 
   nav a {
+    display: block;
     flex: 1 1 100%;
   }
 }

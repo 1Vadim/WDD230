@@ -31,9 +31,11 @@
     <header>
       <img src="./images/vadym_photo.png" alt="Vadym's photo" />
       <h1>Vadym Chemariev</h1>
+      <button id="menu"></button>
     </header>
+    
     <nav>
-      <a href="#">Home</a>
+      <a href="#" class="active">Home</a>
       <a href="lesson03/chamber-site-plan.html">Site Plan</a>
       <a href="chamber/">Chamber</a>
       <a href="https://www.byui.edu/" rel="noopener noreferrer" target="_blank"
@@ -84,6 +86,8 @@
         <input type="text" placeholder="No of visits" />
       </section>
     </main>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229923.51707646783!2d30.351682300317712!3d50.45376610154816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sat!4v1706625566761!5m2!1sru!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     <footer>
       <p>
         &copy;<span id="year"></span> Vadym Chemariev, Ukraine
@@ -97,5 +101,6 @@
       <p>Last modification: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
   </body>
 </html>
