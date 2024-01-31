@@ -16,16 +16,15 @@
     display: block;
     flex: 1 1 100%;
   }
-}
 
-.sections {
-  display: flex;
-  flex-direction: row;
-}
+  .sections {
+    display: flex;
+    flex-direction: row;
+    
+  }
 
-.card {
-  /* display: block; */
-  /* margin-inline: auto; */
-  /* min-width: 600px; */
-  flex: 100%;
+  .card {
+    display: block;
+    flex: 100%;
+  }
 }
