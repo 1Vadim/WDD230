@@ -48,8 +48,8 @@ nav a {
 }
 
 .card {
-  padding: 0.05rem;
-  margin: 0.5rem;
+  /* padding: 0.05rem; */
+  margin: 0.3rem;
   border-radius: 0.5em;
   box-shadow: 10px 10px 15px grey, -10px 0px 15px grey;
 }
@@ -63,13 +63,16 @@ h3 {
   background-color: rgba(14, 14, 132, 0.881);
   color: white;
   padding: 0.5rem;
+  margin-top: 0px;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
 }
 
 .map {
   width: 100%;
   padding: 0px;
-  border-width: 0px;
-  margin: 0px;
+  margin: 0em;
+  margin-top: 1.5em;
 }
 
 footer {
