@@ -1,13 +1,14 @@
 body {
   text-align: center;
-  max-width: 620px;
-  position: relative;
-  margin: 0 auto;
+  /* max-width: 620px; */
+  /* position: relative; */
+  /* margin: 0 auto; */
 }
 
 header {
   font-family: Roboto, cursive;
   display: flex;
+
   /* display: grid;
   grid-template-columns: 150px auto; */
   align-items: center;
@@ -23,7 +24,7 @@ h1 {
 }
 
 button {
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 #menu::before {
@@ -42,15 +43,12 @@ nav a {
   padding: 10px;
 }
 
-main {
-  display: grid;
-  grid-template-rows: auto auto;
+.sections {
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
-.card {
-  display: grid;
-  grid-template-rows: auto auto;
-}
+
 
 .lessonList {
   list-style: none;
