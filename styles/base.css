@@ -48,7 +48,7 @@ nav a {
 }
 
 .card {
-  /* padding: 0.05rem; */
+  padding-bottom: 0.5em;
   margin: 0.3rem;
   border-radius: 0.5em;
   box-shadow: 10px 10px 15px grey, -10px 0px 15px grey;
@@ -78,6 +78,7 @@ h3 {
 footer {
   background-color: rgba(14, 14, 132, 0.881);
   color: white;
+  padding: 0.5em;
 }
 
 .open a {
