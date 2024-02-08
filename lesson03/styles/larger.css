@@ -1,0 +1,33 @@
+@media screen and (min-width: 600px) {
+  #menu {
+    display: none;
+  }
+  
+  
+  
+  nav {
+    display: flex;
+    background-color: black;
+  }
+  nav a:hover {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: yellow;
+  }
+
+  nav a {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .card {
+    display: block;
+    flex: 100%;
+  }
+}

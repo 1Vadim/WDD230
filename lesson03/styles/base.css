@@ -6,7 +6,6 @@ body {
 
 header {
   font-family: Roboto, cursive;
-  display: flex;
   align-items: center;
   background-color: rgba(14, 14, 132, 0.881);
   color: white;
@@ -24,7 +23,7 @@ h1 {
 }
 
 button {
-  align-self: flex-start;
+  margin-left: auto;
 }
 
 #menu::before {
@@ -61,15 +60,14 @@ nav a {
 }
 
 h3 {
-  background-color: rgba(14, 14, 132, 0.881);
-  color: white;
+  background-color: #f9e177;
   padding: 0.5rem;
   margin-top: 0px;
   border-top-right-radius: 0.5em;
   border-top-left-radius: 0.5em;
 }
 
-.map {
+.banner {
   width: 100%;
   padding: 0px;
   margin: 0em;
@@ -90,3 +88,37 @@ footer {
   content: "🟡🔵";
 }
 
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+}
+.table {
+  display: inline-block;
+  padding: 10px;
+}
+
+.primary {
+  background-color: #067bc2;
+}
+
+.secondary {
+  background-color: #1bb145;
+}
+
+.accent1 {
+  background-color: #f9e177;
+}
+
+.accent2 {
+  background-color: #f37748;
+}
+
+.font {
+  border: 1px dashed rgba(19, 17, 17, 0.911);
+}
